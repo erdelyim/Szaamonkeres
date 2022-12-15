@@ -21,7 +21,7 @@ halak['fejes'] = new Hal("Fejes domolykó","Squalius cephalus",null,"https://hu.
 halak['garda'] = new Hal("Garda","Pelecus cultratus"," sugár kardos (némely forrásokban egybeírva), balatoni hering, kardkeszeg, karda, szabóhal, vezérgarda","https://hu.wikipedia.org/wiki/Garda_(halfaj)","garda.jpg");
 halak['harcsa'] = new Hal("Európai harcsa","Silurus glanis", "harcsa, leső harcsa, pozsárharcsa, pumaharcsa, sárgaharcsa, tőkésharcsa, köves harcsa, sebes harcsa, szürke harcsa, szőke harcsa, parasztfaló, kupri, kupak, kuppancs","https://hu.wikipedia.org/wiki/Európai_harcsa","harcsa.jpg")
 
-function halinfo(hal){
+function halinfo(halak){
     document.getElementById('sugo').style.display='none';
     document.getElementById('halURL').href=halak[hal].wikiUrl;
     document.getElementById('halURL').alt=halak[hal].fajMagyar+" képe";
